@@ -1,0 +1,97 @@
+body{
+    background-color: white;
+}
+
+#contenido{
+    width: 360px;
+    margin: 6% auto;
+    border: 2px solid gray;
+    background-color: #f7f7f7;
+    -moz-box-shadow:0px 5px 9px 3px rgba(219, 214, 214, 0.220);
+    -webkit-box-shadow:0px 5px 9px 3px rgba(219, 214, 214, 0.220);
+     box-shadow:0px 5px 9px 3px rgba(219, 214, 214, 0.220);
+}
+
+.completado{
+    text-decoration: line-through;
+    color: gray;
+}
+
+h1{
+    background-image: linear-gradient(to right,#000428 , #004e92);
+   color: white;
+   margin: 0;
+   padding: 10px 20px;
+   text-transform: uppercase;
+   font-size: 24px;
+   font-weight: normal;
+   text-align: center;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to left,#000428 , #004e92);
+}
+
+li{
+    background-color: white;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+}
+li:nth-child(even){
+    background-color: #f7f7f7;
+}
+
+input{
+    font-size: 18px;
+    background-color: #f7f7f7;
+    width: 100%;
+    padding: 13px 13px 13px 20px;
+    border: none;
+}
+* {
+    box-sizing: border-box;
+  }
+
+input:focus{
+    background-color: #fff;
+    outline: none; 
+    border: 3px solid #2980b9;
+}
+
+.fa-chevron-up{
+    float: left;
+}
+
+
+
+.rota-horizontal{
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+span{
+    background-color: #e74c3c;
+    color: white;
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    width: 0px;
+    display: inline-block;
+    transition: 0.2s linear;
+    opacity: 0;
+}
+li:hover span {
+    width: 40px;
+    opacity: 1;
+   }
